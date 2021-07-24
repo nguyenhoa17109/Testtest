@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:stretchColumns="*"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tinh" />
+
+        <EditText
+            android:id="@+id/et"
+            android:padding="15dp"
+            android:hint="Enter radius.."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Dien tich" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="Chu vi"/>
+    </TableRow>
+
+
+
+</TableLayout>
